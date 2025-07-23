@@ -100,42 +100,42 @@ export default function GlassmicLanding() {
   const products = [
     {
       category: "Decor",
-      image: "/Glassmic/images/golden-curved-candle-holders.png",
+      image: "/images/golden-curved-candle-holders.png",
       description:
         "Elegant glass sculptures and ornamental pieces that transform any space into a gallery of light and reflection.",
     },
     {
       category: "Furniture",
-      image: "/Glassmic/images/multi-tier-glass-serving-stand.png",
+      image: "/images/multi-tier-glass-serving-stand.png",
       description:
         "Sophisticated glass furniture pieces that blend functionality with artistic expression for modern living.",
     },
     {
       category: "Gifting",
-      image: "/Glassmic/images/skull-glass-vases.png",
+      image: "/images/skull-glass-vases.png",
       description: "Thoughtfully crafted glass gifts that capture precious moments and create lasting memories.",
     },
   ]
 
   const carouselImages = [
-    { id: "1", src: "/Glassmic/images/artistic-glass-shot-holders.png", alt: "Artistic Glass Shot Holders" },
-    { id: "2", src: "/Glassmic/images/glass-bowls-metal-stands.png", alt: "Glass Bowls with Metal Stands" },
-    { id: "3", src: "/Glassmic/images/fleur-de-lis-glass-bowls.png", alt: "Fleur-de-lis Glass Bowls" },
-    { id: "4", src: "/Glassmic/images/amber-storage-containers.png", alt: "Amber Storage Containers" },
-    { id: "5", src: "/Glassmic/images/tea-light-holders-wave-stand.png", alt: "Tea Light Holders on Wave Stand" },
-    { id: "6", src: "/Glassmic/images/golden-textured-candle-holders.png", alt: "Golden Textured Candle Holders" },
-    { id: "7", src: "/Glassmic/images/multi-tier-glass-serving-stand.png", alt: "Multi-tier Glass Serving Stand" },
-    { id: "8", src: "/Glassmic/images/blue-storage-jars.png", alt: "Blue Glass Storage Jars" },
-    { id: "9", src: "/Glassmic/images/golden-curved-candle-holders.png", alt: "Golden Curved Candle Holders" },
-    { id: "10", src: "/Glassmic/images/skull-glass-vases.png", alt: "Skull Glass Vases" },
-    { id: "11", src: "/Glassmic/images/artistic-glass-shot-holders.png", alt: "Premium Shot Glass Collection" },
-    { id: "12", src: "/Glassmic/images/glass-bowls-metal-stands.png", alt: "Decorative Bowl Collection" },
-    { id: "13", src: "/Glassmic/images/fleur-de-lis-glass-bowls.png", alt: "Ornate Glass Bowl Set" },
-    { id: "14", src: "/Glassmic/images/amber-storage-containers.png", alt: "Luxury Storage Collection" },
-    { id: "15", src: "/Glassmic/images/tea-light-holders-wave-stand.png", alt: "Ambient Lighting Collection" },
-    { id: "16", src: "/Glassmic/images/golden-textured-candle-holders.png", alt: "Textured Candle Collection" },
-    { id: "17", src: "/Glassmic/images/multi-tier-glass-serving-stand.png", alt: "Elegant Serving Collection" },
-    { id: "18", src: "/Glassmic/images/blue-storage-jars.png", alt: "Colored Glass Storage" },
+    { id: "1", src: "/images/artistic-glass-shot-holders.png", alt: "Artistic Glass Shot Holders" },
+    { id: "2", src: "/images/glass-bowls-metal-stands.png", alt: "Glass Bowls with Metal Stands" },
+    { id: "3", src: "/images/fleur-de-lis-glass-bowls.png", alt: "Fleur-de-lis Glass Bowls" },
+    { id: "4", src: "/images/amber-storage-containers.png", alt: "Amber Storage Containers" },
+    { id: "5", src: "/images/tea-light-holders-wave-stand.png", alt: "Tea Light Holders on Wave Stand" },
+    { id: "6", src: "/images/golden-textured-candle-holders.png", alt: "Golden Textured Candle Holders" },
+    { id: "7", src: "/images/multi-tier-glass-serving-stand.png", alt: "Multi-tier Glass Serving Stand" },
+    { id: "8", src: "/images/blue-storage-jars.png", alt: "Blue Glass Storage Jars" },
+    { id: "9", src: "/images/golden-curved-candle-holders.png", alt: "Golden Curved Candle Holders" },
+    { id: "10", src: "/images/skull-glass-vases.png", alt: "Skull Glass Vases" },
+    { id: "11", src: "/images/artistic-glass-shot-holders.png", alt: "Premium Shot Glass Collection" },
+    { id: "12", src: "/images/glass-bowls-metal-stands.png", alt: "Decorative Bowl Collection" },
+    { id: "13", src: "/images/fleur-de-lis-glass-bowls.png", alt: "Ornate Glass Bowl Set" },
+    { id: "14", src: "/images/amber-storage-containers.png", alt: "Luxury Storage Collection" },
+    { id: "15", src: "/images/tea-light-holders-wave-stand.png", alt: "Ambient Lighting Collection" },
+    { id: "16", src: "/images/golden-textured-candle-holders.png", alt: "Textured Candle Collection" },
+    { id: "17", src: "/images/multi-tier-glass-serving-stand.png", alt: "Elegant Serving Collection" },
+    { id: "18", src: "/images/blue-storage-jars.png", alt: "Colored Glass Storage" },
   ]
 
   const testimonials = [
@@ -304,7 +304,7 @@ export default function GlassmicLanding() {
             >
               <div className="relative">
                 <img
-                  src="/Glassmic/images/glass-bowls-metal-stands.png"
+                  src="/images/glass-bowls-metal-stands.png"
                   alt="Artisan crafting glass"
                   className="rounded-2xl shadow-2xl"
                 />
@@ -349,7 +349,7 @@ export default function GlassmicLanding() {
           <Card className="bg-gradient-to-br from-slate-100 to-blue-50/50 border-0 shadow-xl p-8 rounded-3xl">
             <div className="h-96 bg-white/50 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-slate-200/50 relative overflow-hidden">
               <img
-                src="/Glassmic/images/golden-textured-candle-holders.png"
+                src="/images/golden-textured-candle-holders.png"
                 alt="3D Product Preview"
                 className="w-64 h-64 object-cover rounded-xl opacity-30"
               />

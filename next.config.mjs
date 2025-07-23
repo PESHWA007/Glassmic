@@ -8,9 +8,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-  },
-  basePath: '/Glassmic',
-  assetPrefix: '/Glassmic/',
+  }
 }
 
 export default nextConfig
