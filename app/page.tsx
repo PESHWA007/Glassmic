@@ -193,7 +193,7 @@ export default function GlassmicLanding() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              onClick={scrollToCarousel}
+              onClick={() => window.open('https://drive.google.com/file/d/1F8yOkIe2-eV9tQ6ywu5KJKqlI5ZBQoDY/view?usp=drivesdk', '_blank')}
               className="bg-slate-800 hover:bg-slate-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
             >
               Explore Collection
